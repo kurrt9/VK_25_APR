@@ -1,19 +1,18 @@
-Cypress + TypeScript + Cucumbe
+Cypress + TypeScript + Cucumber and HTML Reporting
  
-Cypress/Typrescript/Cucumber/ 
+Cypress/Typrescript/Cucumber/ Project runbook:
 -----------------
 
-This project is a Cypress auto
-support for generating detaile
+This project is a Cypress automation framework using TypeScript and Cucumber for Behavior-Driven Development (BDD). It includes support for generating detailed HTML reports with multiple-cucumber-html-reporter.
 
 **PreRequisites:**
---> install Node latest versio
+--> install Node latest version 13.X
 
 **Installation & Setup**
 
 1️⃣ **Clone the Repository**
 
-git clone https://github.com/k
+git clone https://github.com/kurrt9/VK_25_APR.git
 
 cd cypress_typescript
 
@@ -24,7 +23,7 @@ npm install
 Running Tests:
 --------------
 
-Run Cypress in Interactive Mod
+Run Cypress in Interactive Mode
 
   **npm run cypress:open**
 
@@ -37,7 +36,7 @@ Generating HTML Reports:
 
 1️) Run Cypress Tests
 
-Ensure test execution generate
+Ensure test execution generates JSON reports.
 
   **npm run cypress:run**
 
@@ -45,11 +44,11 @@ Ensure test execution generate
 
   **npm run generate-report**
 
-3) Run Tests in parallel (Feat
+3) Run Tests in parallel (Feature File wise)
 
   **node run-parallel.js**
 
-4) Run Tests based on Cucumber
+4) Run Tests based on Cucumber Tags
 
-  **npx cypress run --env tags
+  **npx cypress run --env tags="@Test"**
 
