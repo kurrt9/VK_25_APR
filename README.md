@@ -12,7 +12,7 @@ This project is a Cypress automation framework using TypeScript and Cucumber for
 
 1️⃣ **Clone the Repository**
 
-git clone https://github.com/kurrt9/Cypress.git
+git clone https://github.com/kurrt9/VK_25_APR.git
 
 cd cypress_typescript
 
