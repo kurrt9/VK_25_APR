@@ -14,7 +14,7 @@ This project is a Cypress automation framework using TypeScript and Cucumber for
 
 git clone https://github.com/kurrt9/VK_25_APR.git
 
-cd cypress_typescript
+cd VK_25_APR
 
 2️⃣ **Install Dependencies**
 
